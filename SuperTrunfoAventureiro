@@ -68,10 +68,10 @@ int main() {
     printf("Digite o Número de Pontos Turísticos da Carta 2: ");
     scanf("%d", &pontost2);
 
-    //calculo Densidade Populacional Carta 1
+    //calculo Densidade Populacional Carta 2
     densipop2 = populacao2 / area2;
 
-    //calculo PIB per Capita em bilhões Carta 1
+    //calculo PIB per Capita em bilhões Carta 2
     pibpercap2 = (pib2 * 1000000000.0) / populacao2;
 
     // ---- Impressão das Cartas ----
